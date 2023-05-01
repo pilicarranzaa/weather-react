@@ -1,0 +1,248 @@
+h1 {
+    font-size: 60px;
+  }
+  
+  h2 {
+    font-size: 32px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 22px;
+  }
+  
+  h5 {
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style: none;
+    font-size: 18px;
+  }
+  
+  .body-wrap {
+    margin-top: 60px;
+    margin: auto;
+    width: 750px;
+    height: auto;
+    background-size: cover;
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .defaultBg {
+    background-image: url("https://media1.giphy.com/media/fSXHTR5nSzKMOPVodt/giphy.gif?cid=790b76111c2c1406d4da4ca6b79b25eb9f674a0b9904cd6c&rid=giphy.gif&ct=g");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .dCloud {
+    background-image: url(/src/img/day-clouds.gif);
+    background-position: center;
+    background-size: cover;
+  }
+  .nCloud {
+    background-image: url(/src/img/night-clouds.gif);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .dClear {
+    background-image: url(/src/img/day-clear.gif);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .nClear {
+    background-image: url(/src/img/night-clear.gif);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .dRain {
+    background-image: url(/src/img/day-storm.gif);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .nRain {
+    background-image: url(/src/img/night-rain.gif);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .dSnow {
+    background-image: url(/src/img/day-snow.gif);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .nSnow {
+    background-image: url(/src/img/night-snow.gif);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .foggy {
+    background-image: url(/src/img/foggy.gif);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .body {
+    margin-top: 60px;
+    display: block;
+    width: 700px;
+    border: 0px solid rgba(95, 95, 95, 0.3);
+    border-radius: 20px;
+    box-shadow: 0px 0px 37px 8px rgba(13, 13, 13, 0.4);
+    height: auto;
+    color: rgb(48, 48, 48);
+    font-family: "Nunito", sans-serif;
+  }
+  
+  .code {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    width: 90%;
+  }
+  .header {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+  }
+  
+  .next-days {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+  }
+  
+  .item {
+    flex: 1;
+    max-width: 18%;
+    min-width: 18%;
+    text-align: center;
+    height: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  
+  .city {
+    flex: 1;
+    max-width: 40%;
+    text-align: center;
+    height: auto;
+  }
+  
+  .today {
+    flex: 1;
+    max-width: 60%;
+    margin-left: 20px;
+    height: auto;
+  }
+  
+  .date h3 {
+    text-align: left;
+  }
+  
+  .date h2 {
+    text-align: center;
+  }
+  
+  .today i {
+    font-size: 100px;
+  }
+  
+  .next-days h3 {
+    text-align: center;
+  }
+  .next-days i {
+    font-size: 40px;
+  }
+  
+  .footer {
+    text-align: center;
+    font-size: large;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .bd {
+    background: rgba(209, 209, 209, 0.427);
+    border-radius: 10px;
+    box-shadow: 0px 0px 78px 8px rgba(76, 76, 75, 0.5);
+  }
+  
+  .search {
+    padding: 0;
+    border: none;
+    background: none;
+    color: rgb(48, 48, 48);
+  }
+  .find {
+    padding: 0;
+    border: none;
+    background: none;
+    color: rgb(48, 48, 48);
+    font-weight: bold;
+    text-decoration: None;
+  }
+  
+  .max {
+    font-weight: bold;
+  }
+  
+  .units {
+    font-size: 24px;
+    font-weight: bold;
+    float: right;
+    padding: 10px;
+  }
+  
+  .farenheit,
+  .celsius {
+    color: rgb(48, 48, 48);
+  }
+  
+  .mainImg {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .today img {
+    width: 125px;
+  }
+  .next-days img {
+    width: 75px;
+  }
+  
+  .info {
+    margin: auto;
+    text-align: end;
+    padding: 0 20px;
+  }
+  
+  form {
+    display: grid;
+    text-align: left;
+    justify-content: center;
+    max-width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  
+  form input {
+    border-radius: 10px;
+  }
+  
