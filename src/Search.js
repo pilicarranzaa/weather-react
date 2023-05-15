@@ -5,8 +5,7 @@ export default function Search() {
   return (
     <div className="row search-city h-25 my-2 mx-2">
       <div className="col py-2">
-        <form className="bd mt-3" id="searchCity">
-          <label for="city">Insert city</label>
+        <form className="bd mt-3 text-center" id="searchCity">
           <row>
             <input
               type="text"

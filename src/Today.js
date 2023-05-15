@@ -4,11 +4,9 @@ import "./styles.css";
 export default function Today() {
   return (
     <div className="today bd">
-      <div className="d-flex justify-content-between align-items-center px-3 py-1">
-        <div>
+      <div className="today-data px-3 py-1">
           <h2 id="currentHour">16:17HS</h2>
-        </div>
-        <div className="d-flex justify-content-between align-items-start">
+        <div className="d-flex align-items-start">
           <h1 className="temperature" id="currentTemp">
             8
           </h1>

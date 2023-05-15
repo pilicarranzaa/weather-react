@@ -9,9 +9,9 @@ export default function Sign() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Open-source code
+      Open-source code
       </a>
-      by
+      {' '}by{' '}
       <a
         href="https://www.shecodes.io/graduates/57970-pilar-maria-carranza-astrada"
         target="_blank"
